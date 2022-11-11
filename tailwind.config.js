@@ -9,7 +9,10 @@ module.exports = {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
-        navColor:"#15141A"
+        navColor:"#15141A",
+        logoColor:"#D9D9D9",
+        buttonColor:'#800080',
+        heroColor:"#1E1E1E"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
