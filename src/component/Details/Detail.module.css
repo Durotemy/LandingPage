@@ -1,0 +1,8 @@
+/* bg-[#1E1E1E] */
+
+
+.container{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: row;
+}

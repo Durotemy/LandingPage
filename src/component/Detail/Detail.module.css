@@ -1,0 +1,143 @@
+.container {
+  width: 80%;
+  margin: 0px auto;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.cardImage {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: space-between;
+}
+.cardItem {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.cardContent {
+  background-color: black;
+  height: 99%;
+  width: 40%;
+  border-radius: 1rem;
+}
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-top: 0.5rem;
+}
+.text {
+  font-size: 1rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+}
+.buttonContainer {
+  margin-right: 2rem;
+  text-align: right;
+}
+.creator {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+.buttonSold {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.buttonSold {
+  position: relative;
+  margin-right: -2rem;
+  top: -1.0rem;
+}
+.buttonForSale {
+  position: relative;
+  margin-right: -7rem;
+  margin-top: -5rem;
+}
+
+.buttonForSale {
+  background-color: #664cea;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 16px;
+  text-align: center;
+}
+.buttonForSale {
+  position: relative;
+  margin-right: -2rem;
+  /* margin-top: -19rem; */
+}
+.buttonForSale:hover,
+.buttonForSale:focus {
+  background-color: #f082ac;
+}
+.buttonSold:hover,
+.buttonSold:focus {
+  background-color: #664cea;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    margin-top: 55rem;
+    flex-direction: column;
+  }
+  .cardItem {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cardContent {
+    width: 200%;
+  }
+  .buttonContainer {
+    text-align: center;
+  }
+  .image {
+    width: 400%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .cardContent {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
+}

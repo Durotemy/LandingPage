@@ -2,7 +2,8 @@ import "./App.css";
 import styles from "./style";
 import Header from "./constants/Header";
 import Hero from "./component/Hero/Hero.jsx";
-import Details from "./component/Details/Details";
+// import Details from "./component/Details/Details";
+import Detail from "./component/Detail/Detail"
 function App() {
   return (
     <div className="bg-secondary w-full overflow-hidden">
@@ -15,7 +16,8 @@ function App() {
         <Hero />
       </div>
       <div>
-        <Details className="bg-heroColor" />
+       <Detail />
+        {/* <Details className="bg-heroColor" /> */}
       </div>
     </div>
   );

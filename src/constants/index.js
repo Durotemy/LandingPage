@@ -27,10 +27,5 @@ export const imagesDetails =[
     id: 2,
     text: "lorem lorem lorem lorem lorem lorem loreem lorem lorem lorem loreem lorem lorem lorem loreem lorem lorem lorem loreem lorem lorem lorem loreem",
     image: image1
-  },
-  {
-    id: 3,
-    text: "lorem lorem lorem lorem lorem lorem loreem lorem lorem lorem loreem lorem lorem lorem loreem lorem lorem lorem loreem lorem lorem lorem loreem",
-    image: image1
   }
 ]
