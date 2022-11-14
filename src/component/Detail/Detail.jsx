@@ -18,9 +18,9 @@ const Detail = () => {
                 <p className={style.creator}>Creator: {item.creator}</p>
                 <div className={style.buttonContainer}>
                   {!item.sold ? (
-                    <button className={style.buttonSold}>For Sale</button>
+                    <button className={style.buttonSold}>Sold for 15ETH</button>
                   ) : (
-                    <button className={style.buttonForSale}>Sold</button>
+                    <button className={style.buttonForSale}>Buy for 15ETH</button>
                   )}
                 </div>
               </div>

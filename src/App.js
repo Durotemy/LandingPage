@@ -15,9 +15,8 @@ function App() {
       <div className="py-8 px-8 bg-heroColor">
         <Hero />
       </div>
-      <div>
+      <div className="bg-heroColor">
        <Detail />
-        {/* <Details className="bg-heroColor" /> */}
       </div>
     </div>
   );
