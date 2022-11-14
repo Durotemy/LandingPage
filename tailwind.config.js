@@ -11,7 +11,7 @@ module.exports = {
         dimBlue: "rgba(9, 151, 124, 0.1)",
         navColor:"#15141A",
         logoColor:"#D9D9D9",
-        buttonColor:'#800080',
+        buttonColor:'blue',
         heroColor:"#1E1E1E"
       },
       fontFamily: {

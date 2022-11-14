@@ -3,7 +3,7 @@ import NavBar from "../component/NavBar/NavBar";
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between px-10 items-center text-white bg-navColor">
+    <header className="flex flex-row justify-between px-10 items-center text-white bg-navColor h-17">
       <section className="flex items-center ">
         <div className="p-4 bg-[#D9D9D9] rounded-full">
           <h2>Logo</h2>
